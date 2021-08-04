@@ -4,6 +4,9 @@
     padding: 0 0 2em 0;
     text-align: center;
     position: relative;
+    background-image: url('./3953239497_4f944903c3_o.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #sunflower canvas {

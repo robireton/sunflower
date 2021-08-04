@@ -1,0 +1,113 @@
+body:before {
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0px 10px #0A0A07;
+    z-index: 100;
+}
+
+body {
+    color: #f0c360;
+    background-color: #615B41;
+    margin: 0;
+    padding: 1em;
+    font-family: Ubuntu, sans-serif;
+    font-size: medium;
+}
+
+h1 {
+    margin: 0 auto 0.5em 0.5em;
+    padding: 0;
+}
+
+article#sunflower {
+    display: block;
+    color: #FFFFFF;
+    background-color: #a57232;
+    min-width: 480px;
+    max-width: 940px;
+    height: 640px;
+    margin: 0;
+    padding: 0;
+    border-radius: 1em;
+    text-align: center;
+    background-image: url('sunflower.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+article#sunflower:after {
+    content: 'background photo: ‘Sunflowers’ by Bill Reaves, 1972 via The U.S. National Archives & Flickr';
+    font-size: small;
+    position: absolute;
+    bottom: 0.62em;
+    right: 1.62em;
+    opacity: 0.62;
+}
+
+canvas {
+    margin: 2em auto 0 auto;
+}
+
+input#controlStep {
+    text-align: center;
+    display: none;
+    margin: auto;
+}
+
+div#buttons {
+    text-align: center;
+    display: none;
+    margin: auto;
+}
+
+div#buttons img {
+    display: inline-block;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 0 6px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 6px;
+    -moz-transition: border 0.33s ease-out, box-shadow 0.33s ease-out;
+    -webkit-transition: border 0.33s ease-out, box-shadow 0.33s ease-out;
+    transition: border 0.33s ease-out, box-shadow 0.33s ease-out;
+}
+
+div#buttons img:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    box-shadow: 0 0 5px #FFFFFF;
+    -moz-transition: border 0.33s ease-out, box-shadow 0.33s ease-out;
+    -webkit-transition: border 0.33s ease-out, box-shadow 0.33s ease-out;
+    transition: border 0.33s ease-out, box-shadow 0.33s ease-out;
+}
+
+footer {
+    display: block;
+    margin: 1em;
+    padding: 0 0 0 1em;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 2em;
+}
+
+footer a {
+    color: #f0c360;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
